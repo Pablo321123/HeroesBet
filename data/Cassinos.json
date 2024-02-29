@@ -4,6 +4,7 @@
       "avaliacao": "9.5",
       "deposito_min": 1,
       "saque_min": 20,
+      "logo": "netuno.png",
       "link_afiliado": "https://go.aff.netuno.bet/pjo1ow7y"
     },
     {
@@ -11,6 +12,7 @@
       "avaliacao": "8.5",
       "deposito_min": 5,
       "saque_min": 50,
+      "logo": "br4bet.png",
       "link_afiliado": "https://br4bet.com/ref/01hqh1cv42wvh11tk3vv3trcyh"
     },
     {
@@ -18,6 +20,7 @@
       "avaliacao": "7.5",
       "deposito_min": 7,
       "saque_min": 12,
+      "logo": "20bet.png",
       "link_afiliado": "https://20bet.com/br?show=cashier"
     },
     {
@@ -25,6 +28,7 @@
       "avaliacao": "7.5",
       "deposito_min": 10,
       "saque_min": 20,
+      "logo": "netpix.png",
       "link_afiliado": "https://m.netpix.bet/pt"
     },
     {
@@ -32,6 +36,7 @@
       "avaliacao": "8.5",
       "deposito_min": 10,
       "saque_min": 20,
+      "logo": "reals.png",
       "link_afiliado": "https://realsbet.com/casino"
     },
     {
@@ -39,6 +44,7 @@
       "avaliacao": "9.5",
       "deposito_min": 10,
       "saque_min": 10,
+      "logo": "novibet.png",
       "link_afiliado": "https://br.novibet.com/cassino"
     },
     {
@@ -46,13 +52,15 @@
       "avaliacao": "9.5",
       "deposito_min": 15,
       "saque_min": 10,
+      "logo": "monster.png",
       "link_afiliado": "https://www.moonster.com"
     },
     {
-      "nome": "Cashalot",
+      "nome": "Cashlot",
       "avaliacao": "7.5",
       "deposito_min": 20,
       "saque_min": 50,
+      "logo": "cashlot.png",
       "link_afiliado": "https://cashalot.bet/online-casino"
     },
     {
@@ -60,6 +68,7 @@
       "avaliacao": "9.5",
       "deposito_min": 20,
       "saque_min": 50,
+      "logo": "betano.png",
       "link_afiliado": "https://br.betano.com/casino/"
     },
     {
@@ -67,6 +76,7 @@
       "avaliacao": "8.5",
       "deposito_min": 50,
       "saque_min": 100,
+      "logo": "luckybandit.png",
       "link_afiliado": "https://luckybandit.club/br/casino/home"
     }
   ]

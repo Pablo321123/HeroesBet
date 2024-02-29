@@ -172,6 +172,7 @@ hr {
     padding: 3rem 2rem;
     margin: auto;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .card-header h2 {
@@ -181,15 +182,90 @@ hr {
 }
 
 .card-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.card-element {
     background-color: white;
+    max-height: 4.5rem;
+    width: 100%;
     align-items: center;
     color: #0c1216;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.card-figure {
+    margin: 0;
+    width: 20%;
+    /* Defina a largura desejada */
+}
+
+.card-logo {
+    width: 80%;
+}
+
+.rate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dep-min-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saq-min-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    font-weight: 700;
+    color: #2b3b46;
+}
+
+.card-rate {
+    font-weight: 600;
+    color: #ffa71d;
+
+}
+
+.card-text {
+    font-weight: 600;
+    color: #14ad6c;
+}
+
+.play-button {
+    padding: 10px;
+    width: 25%;
+    background-color: #14ad6c;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+    box-shadow: 3px 3px 0 1px #18d383;
+    transition: box-shadow 0.3s ease-out;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: #18d383;
+    box-shadow: 0px 0px 0 0px #18d383;
+}
+
 
 footer {
     display: flex;
