@@ -83,7 +83,7 @@ function loadCards() {
                 /* play-button */    
                 const buttonPlay = document.createElement('button')
                 buttonPlay.classList.add('play-button')
-                buttonPlay.textContent = 'QUERO JOGAR!'
+                buttonPlay.textContent = 'QUERO JOGAR!'                
                 cardElement.appendChild(buttonPlay)
             
             cardContainer.appendChild(cardElement)
@@ -92,11 +92,5 @@ function loadCards() {
 
     })
 }
-
-
-{/*                 <div class="card-element">
-                    
-                        <button class="play-button"></button>
-                    </div> */}
 
 loadCards()
