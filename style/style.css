@@ -9,7 +9,7 @@
 
 body {
     color: white;
-    background-color: #0c1216;
+    background-color: #154d25;
 }
 
 a {
@@ -84,6 +84,7 @@ main {
 
 .container {
     background: #0b2713;
+    border-radius: 0 0 10px 10px;
 }
 
 .hero {
@@ -107,6 +108,8 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    opacity: 0;
+    animation: animacao-entrada 0.5s ease-out forwards;
 }
 
 .green {
@@ -143,6 +146,8 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 0;
+    animation: animacao-entrada 0.5s 0.1s ease-out forwards;
 }
 
 .hero-images-container>figure>img {
@@ -158,6 +163,8 @@ hr {
     display: flex;
     background-color: #154d25;
     align-items: center;
+    opacity: 0;
+    animation: animacao-entrada 0.5s 0.2s ease-out forwards;
 
 }
 
@@ -184,7 +191,8 @@ hr {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-
+    opacity: 0;
+    animation: animacao-entrada 0.5s 0.3s ease-out forwards;
 }
 
 .card-element {
@@ -648,3 +656,8 @@ footer .footer-subtitle {
         font-size: 10px;
     }
 }
+
+@keyframes animacao-entrada {
+    0% { opacity: 0; transform: translateY(50px); } /* Inicialmente invisível e deslocado para baixo */
+    100% { opacity: 1; transform: translateY(0); } /* Totalmente visível e na posição original */
+  }
