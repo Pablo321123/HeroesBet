@@ -41,10 +41,14 @@ function loadCards() {
             imgLogo.alt = casa.nome
             figure.appendChild(imgLogo)
 
+            const infoContainer = document.createElement('div')
+            infoContainer.classList.add('info-container')
+            cardElement.appendChild(infoContainer)
+
             /* rate-container */
             const rateContainer = document.createElement('div')
             rateContainer.classList.add('rate-container')
-            cardElement.appendChild(rateContainer)
+            infoContainer.appendChild(rateContainer)
 
             /* card-title */
             const cardTitle = document.createElement('span')
@@ -61,7 +65,7 @@ function loadCards() {
             /* dep-min-container */
             const depositoContainer = document.createElement('div')
             depositoContainer.classList.add('dep-min-container')
-            cardElement.appendChild(depositoContainer)
+            infoContainer.appendChild(depositoContainer)
 
             /* card-title */
             const cardTitle2 = document.createElement('span')
@@ -78,7 +82,7 @@ function loadCards() {
             /* saq-min-container */
             const saqueContainer = document.createElement('div')
             saqueContainer.classList.add('saq-min-container')
-            cardElement.appendChild(saqueContainer)
+            infoContainer.appendChild(saqueContainer)
 
             /* card-title */
             const cardTitle3 = document.createElement('span')
