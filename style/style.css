@@ -492,6 +492,17 @@ footer .footer-subtitle {
     .card-header h2 {
         font-size: 1.4rem;
     }
+
+    .card-figure {
+        margin: 0;
+        width: 25%;
+        z-index: 1;
+        transform: translateY(-5px);
+    }
+
+    .card-logo {
+        width: 100%
+    }
 }
 
 @media (max-width: 572px) {
