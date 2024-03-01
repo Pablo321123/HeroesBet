@@ -21,14 +21,14 @@
       "deposito_min": 7,
       "saque_min": 12,
       "logo": "20bet.png",
-      "link_afiliado": "https://20bet.com/br?show=cashier"
+      "link_afiliado": "https://20bet.com/br"
     },
     {
       "nome": "NetPix",
       "avaliacao": "7.5",
       "deposito_min": 10,
       "saque_min": 20,
-      "logo": "netpix.png",
+      "logo": "netpix.svg",
       "link_afiliado": "https://m.netpix.bet/pt"
     },
     {
@@ -52,7 +52,7 @@
       "avaliacao": "9.5",
       "deposito_min": 15,
       "saque_min": 10,
-      "logo": "monster.png",
+      "logo": "moonster.svg",
       "link_afiliado": "https://www.moonster.com"
     },
     {
@@ -76,7 +76,7 @@
       "avaliacao": "8.5",
       "deposito_min": 50,
       "saque_min": 100,
-      "logo": "luckybandit.png",
+      "logo": "luckybandit.svg",
       "link_afiliado": "https://luckybandit.club/br/casino/home"
     }
   ]
