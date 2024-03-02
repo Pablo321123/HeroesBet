@@ -554,7 +554,6 @@ footer .footer-subtitle {
 
     /*title*/
     .hero {
-        height: 55vh;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -622,11 +621,6 @@ footer .footer-subtitle {
 }
 
 @media (max-width: 440px) {
-
-    /*title*/
-    .hero {
-        height: 55vh;
-    }
 
     h1 {
         font-size: 1.4rem;
