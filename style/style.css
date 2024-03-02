@@ -339,7 +339,6 @@ footer .footer-subtitle {
         padding: 1.5rem 4rem;
     }
 
-
     .logo-img img {
         max-width: 60%;
     }
@@ -347,8 +346,6 @@ footer .footer-subtitle {
     .logo-title {
         font-size: 28px;
     }
-
-
 }
 
 @media (max-width: 995px) {
@@ -388,7 +385,6 @@ footer .footer-subtitle {
     }
 
     /*Title*/
-
     h1 {
         font-family: Montserrat;
         font-size: 1.8rem;
@@ -407,9 +403,7 @@ footer .footer-subtitle {
         font-size: 1.6rem;
     }
 
-
     /*Cards*/
-
     .square {
         width: 100%;
         height: 30%;
@@ -551,7 +545,7 @@ footer .footer-subtitle {
     }
 
     .logo-img img {
-        max-width: 50%;
+        max-width: 60%;
     }
 
     .logo-title {
@@ -630,7 +624,6 @@ footer .footer-subtitle {
 @media (max-width: 440px) {
 
     /*title*/
-
     .hero {
         height: 55vh;
     }
