@@ -70,7 +70,7 @@ function loadCards() {
             /* card-title */
             const cardTitle2 = document.createElement('span')
             cardTitle2.classList.add('card-title')
-            cardTitle2.textContent = 'Deposito Mínimo'
+            cardTitle2.textContent = 'Comece com'
             depositoContainer.appendChild(cardTitle2)
 
             /* card-title */
@@ -87,7 +87,7 @@ function loadCards() {
             /* card-title */
             const cardTitle3 = document.createElement('span')
             cardTitle3.classList.add('card-title')
-            cardTitle3.textContent = 'Saque Mínimo'
+            cardTitle3.textContent = 'Retire com'
             saqueContainer.appendChild(cardTitle3)
 
             /* card-title */
